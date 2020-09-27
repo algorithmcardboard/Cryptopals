@@ -42,8 +42,6 @@ public class SingleByteXORCipher {
     public static  void main(String args[]) throws DecoderException {
         String hexString = "1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736";
 
-
-
         Map<Character, Float> charFreq = new HashMap<>();
         charFreq.put('a', 0.0651738f);
         charFreq.put('b', 0.0124248f);
